@@ -22,7 +22,8 @@ namespace TestSubmodulesApp
 
             var clonedPoco = BinaryConverter.BinaryConvert.DeserializeObject<TestPoco>(buf);
 
-            Console.WriteLine(JsonConvert.SerializeObject(clonedPoco));
+            Console.WriteLine("origPoco:" + JsonConvert.SerializeObject(origPoco));
+            Console.WriteLine("clonedPoco:" + JsonConvert.SerializeObject(clonedPoco));
 
         }
     }
