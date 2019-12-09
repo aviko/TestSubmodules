@@ -1,0 +1,3 @@
+[submodule "Src/BinaryConverter.Net"]
+	path = Src/BinaryConverter.Net
+	url = https://github.com/aviko/BinaryConverter.Net
